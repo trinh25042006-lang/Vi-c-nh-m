@@ -1,0 +1,6 @@
+{
+  "name": "Quản Lý Công Việc",
+  "description": "Ứng dụng quản lý công việc và thành viên với giao diện hồng - xanh dương, theo dõi tiến độ, link báo cáo và bình luận kết quả công việc.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

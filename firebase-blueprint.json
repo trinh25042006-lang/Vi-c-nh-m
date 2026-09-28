@@ -1,0 +1,54 @@
+{
+  "entities": {
+    "users": {
+      "fields": {
+        "email": { "type": "string" },
+        "displayName": { "type": "string" },
+        "role": { "type": "string" },
+        "avatar": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "status": { "type": "string" }
+      }
+    },
+    "tasks": {
+      "fields": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "assigneeId": { "type": "string" },
+        "assigneeName": { "type": "string" },
+        "assigneeEmail": { "type": "string" },
+        "assigneeAvatar": { "type": "string" },
+        "startDate": { "type": "string" },
+        "dueDate": { "type": "string" },
+        "status": { "type": "string" },
+        "priority": { "type": "string" },
+        "reportLink": { "type": "string" },
+        "reportNote": { "type": "string" },
+        "createdById": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      }
+    },
+    "comments": {
+      "fields": {
+        "taskId": { "type": "string" },
+        "authorId": { "type": "string" },
+        "authorName": { "type": "string" },
+        "authorEmail": { "type": "string" },
+        "authorAvatar": { "type": "string" },
+        "content": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    },
+    "invitations": {
+      "fields": {
+        "email": { "type": "string" },
+        "role": { "type": "string" },
+        "invitedBy": { "type": "string" },
+        "inviteCode": { "type": "string" },
+        "status": { "type": "string" },
+        "createdAt": { "type": "string" }
+      }
+    }
+  }
+}
